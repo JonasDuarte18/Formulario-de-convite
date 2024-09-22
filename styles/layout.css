@@ -12,6 +12,7 @@ aside {
   background: url(../assets/Background.png) no-repeat;
   padding: 2rem;
   border-radius: 0.75rem;
+  background-size: cover;
 
 
   & h2 {

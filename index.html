@@ -29,14 +29,28 @@
         <h1>Crie seu convite</h1>
 
         <form action="" method="post" enctype="multipart/form-data">
-          <fieldset>
+
+          <fieldset class="about-event">
             <div class="legend-wrapper">
               <img src="assets/icons/calendar.svg" alt="Ícone de calendário">
               <legend>Sobre o evento</legend>
+            </div>
 
-              <div class="input-wrapper">
-                <label for="event-tittle">Título</label>
-                <input type="text" id="event-tittle" name="event-tittle">
+            <div class="input-wrapper">
+              <label for="event-tittle">Título</label>
+              <input type="text" id="event-tittle" name="event-tittle" placeholder="Nome do evento">
+            </div>
+
+            <div class="flex ">
+
+              <div class="input-wrapper flex-1">
+                <label for="start-date">Início</label>
+                <input type="datetime-local" id="start-date" name="start-date">
+              </div>
+
+              <div class="input-wrapper flex-1">
+                <label for="end-date">Fim</label>
+                <input type="datetime-local" id="end-date" name="end-date">
               </div>
             </div>
 
