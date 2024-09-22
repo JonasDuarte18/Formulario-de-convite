@@ -48,5 +48,22 @@
 }
 
 body {
-  font: var(--text-body-xs);
+  background-color: var(--shape-background);
+  font: var(--text-body-sm);
+  color: var(--text-body);
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font: var(--text-heading-md);
+  color: var(--text-heading);
+}
+
+.flex {
+  display: flex;
 }
