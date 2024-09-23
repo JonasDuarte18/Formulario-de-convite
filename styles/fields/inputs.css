@@ -19,14 +19,14 @@ textarea {
 }
 
 label {
-  color: var(--text-body);
+  color: var(--);
   font: var(--text-body-md);
 }
 
 .input-wrapper {
   font: var(--text-body-md);
   display: grid;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 
 .about-event .flex {

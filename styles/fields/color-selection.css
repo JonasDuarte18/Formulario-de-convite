@@ -1,9 +1,3 @@
-.color-wrapper {
-  font: var(--text-body-md);
-  display: grid;
-  gap: 1rem;
-}
-
 .color-inner {
   cursor: pointer;
 
