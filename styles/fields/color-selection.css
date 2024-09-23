@@ -1,0 +1,71 @@
+.color-wrapper {
+  font: var(--text-body-md);
+  display: grid;
+  gap: 1rem;
+}
+
+.color-inner {
+  cursor: pointer;
+
+  width: 1.85rem;
+  height: 1.85rem;
+  border-radius: 100%;
+  border: 0.375rem solid var(--shape-button);
+
+  &:nth-child(1) {
+    background-color: var(--brand-light);
+  }
+  &:nth-child(2) {
+    background-color: var(--navy);
+  }
+  &:nth-child(3) {
+    background-color: var(--purple);
+  }
+  &:nth-child(4) {
+    background-color: var(--fuschia);
+  }
+  &:nth-child(5) {
+    background-color: var(--pink);
+  }
+  &:nth-child(6) {
+    background-color: var(--danger);
+  }
+  &:nth-child(7) {
+    background-color: var(--orange);
+  }
+  &:nth-child(8) {
+    background-color: var(--yellow);
+  }
+  &:nth-child(9) {
+    background-color: var(--lime);
+  }
+  &:nth-child(10) {
+    background-color: var(--green);
+  }
+  &:nth-child(11) {
+    background-color: var(--cyan);
+  }
+  background-color: var(--shape-background);
+
+  position: relative;
+
+  & input,
+  & input:focus,
+  & input:hover {
+    all: unset;
+    position: absolute;
+    inset: 0;
+    font: var(--text-body-sm);
+  }
+
+  &:hover {
+    border: 0.375rem solid var(--shape-hover);
+  }
+  &:has(:checked) {
+    outline: solid var(--brand-light);
+
+    & svg path {
+      stroke: var(--brand-light);
+    }
+  }
+}

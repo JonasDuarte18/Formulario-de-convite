@@ -22,7 +22,7 @@
   --brand-mid: #3487cf;
   --brand-dark: #1d6fb6;
 
-  --pruple: #b259ff;
+  --purple: #b259ff;
   --fuschia: #ff59f9;
   --pink: #ff598b;
   --orange: #ff8b59;
@@ -69,4 +69,8 @@ h1 {
 
 .flex-1 {
   flex: 1;
+}
+
+.justify-beetwen {
+  justify-content: space-between;
 }
