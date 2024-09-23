@@ -14,7 +14,6 @@ aside {
   border-radius: 0.75rem;
   background-size: cover;
 
-
   & h2 {
     font: var(--text-logo);
     color: var(--pink);
@@ -24,7 +23,6 @@ aside {
     font: 100 var(--text-body-md);
     color: var(--text-heading);
   }
-
 }
 
 main {
@@ -32,10 +30,8 @@ main {
   border-radius: 0.75rem;
   overflow: auto;
 
-
   & .main-container {
-    margin: 5rem auto 0 auto;
+    margin: 5rem auto 5rem auto;
     max-width: 36rem;
   }
-
 }
