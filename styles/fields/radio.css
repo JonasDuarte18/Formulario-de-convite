@@ -1,0 +1,50 @@
+label + .radio-wrapper {
+  margin-top: 0.75rem;
+}
+
+.radio-wrapper {
+  display: flex;
+  padding: 0.25rem;
+
+  color: var(--text-body);
+  background-color: var(--input-base);
+  border: 1px solid var(--input-stroke);
+
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+
+.radio-inner {
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 0.312rem;
+
+  font: var(--text-body-sm);
+
+  padding: auto;
+  position: relative;
+  margin: auto;
+  & input,
+  & input:focus,
+  & input:hover {
+    all: unset;
+    position: absolute;
+    inset: 0;
+  }
+
+  &:has(:checked) {
+    background-color: var(--shape-button);
+    & svg path {
+      stroke: var(--brand-light);
+    }
+  }
+}
