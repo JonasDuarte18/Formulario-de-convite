@@ -1,0 +1,31 @@
+.switch-wrapper {
+  position: relative;
+  cursor: pointer;
+
+  align-items: center;
+
+  & p {
+    margin-left: 0.75rem;
+  }
+
+  & input,
+  & input:focus,
+  & input:hover {
+    all: unset;
+    position: absolute;
+    font: var(--text-body-sm);
+    inset: 0;
+  }
+
+  & input[type="checkbox"]:checked {
+    & ~ svg {
+      & circle {
+        transform: translateX(32px);
+        fill: #f9f9f9;
+      }
+      & rect {
+        fill: #59b2ff;
+      }
+    }
+  }
+}
